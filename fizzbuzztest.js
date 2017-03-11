@@ -21,8 +21,14 @@ describe("Fizz Buzz tests ", function() {
     expect(fizzBuzz(90)).toBe('FizzBuzz');
   });
 
+  
   it("should return `Fizz` for 63", function() {
     expect(fizzBuzz(63)).toBe('Fizz');
+
+  });
+
+  it("should return `FizzBuzz` for 90", function() {
+    expect(fizzBuzz(120)).toBe('FizzBuzz');
   });
 
   it("should return 7 since its indivisible by 3 and 5", function() {
@@ -31,6 +37,10 @@ describe("Fizz Buzz tests ", function() {
 
   it("should return 101 since its indivisible by 3 and 5", function() {
     expect(fizzBuzz(101)).toBe(101);
+  });
+
+  it("should return 251 since its indivisible by 3 and 5", function() {
+    expect(fizzBuzz(251)).toBe(251);
   });
 
 });
