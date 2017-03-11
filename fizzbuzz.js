@@ -1,6 +1,5 @@
 module.exports  = {
 	fizzbuzz : function(number){
-function fizzbuzz (number){
   if ((number%3===0)&&(number%5===0)){
     return 'FizzBuzz';
   }
@@ -11,10 +10,9 @@ function fizzbuzz (number){
     return 'Buzz';
   }
   else {
-    return -1;
+    return number;
   }
 }
+}	
 
-}
-	
 	
