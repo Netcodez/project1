@@ -42,6 +42,11 @@ var aritGeo = require('./arithgeo.js').arithGeo;
         expect(aritGeo([-128, 64, -32, 16, -8])).toEqual('Geometric');
       });
 
+       it("should return `Geometric` for [128, 64, 32 , 16 , 8]", function() {
+        expect(aritGeo([128, 64, 32, 16, 8])).toEqual('Geometric');
+      });
+
+
     });
 
     describe("Case for neither arithmetic nor geometric sequence", function() {
@@ -57,7 +62,9 @@ var aritGeo = require('./arithgeo.js').arithGeo;
       it("should return -1 for [1, 8, 27, 64, 125]", function() {
         expect(aritGeo([1, 8, 27, 64, 125])).toEqual(-1);
       });
-      
+      it("should return -1 for [1, 9, 27, 64, 125]", function() {
+        expect(aritGeo([1, 9, 27, 64, 125])).toEqual(-1);
+      });
     });
   });
 })();
