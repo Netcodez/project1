@@ -11,11 +11,11 @@ var findMinMax = require('./minmaxofanarray.js').minMax;
       });
 
       it('should return [2,7] for [7, 2, 3 ,5]', function () {
-        expect(findMinMax([7, 2, 3, 5])).toEqual([1, 4]);
+        expect(findMinMax([7, 2, 3, 5])).toEqual([2, 7]);
       });
 
       it('should return [5,17] for [17, 2,8 ,11,16]', function () {
-        expect(findMinMax([17, 2,8 ,11,16])).toEqual([1, 4]);
+        expect(findMinMax([17, 2,8 ,11,16])).toEqual([2, 17]);
       });
 
 
@@ -24,15 +24,15 @@ var findMinMax = require('./minmaxofanarray.js').minMax;
       });
 
       it('should return [22, 56] for [6, 4]', function () {
-        expect(findMinMax([56, 22])).toEqual([4, 6]);
+        expect(findMinMax([56, 22])).toEqual([22, 56]);
       });
 
       it('should return [2, 78] for [4, 66, 6, 44, 7, 78, 8, 68, 2]', function () {
         expect(findMinMax([4, 66, 6, 44, 7, 78, 8, 68, 2])).toEqual([2, 78]);
       });
 
-      it('should return [19, 96] for [21, 66, 48, 57, 24, 96, 8, 78, 12]', function () {
-        expect(findMinMax([21, 66, 48, 57, 24, 96, 8, 78, 12])).toEqual([19,96]);
+      it('should return [8, 96] for [21, 66, 48, 57, 24, 96, 8, 78, 12]', function () {
+        expect(findMinMax([21, 66, 48, 57, 24, 96, 8, 78, 12])).toEqual([8,96]);
       });
 
       it('should return [1,50] for [18, 25, 16, 40, 27, 38, 13, 50, 22]', function () {
