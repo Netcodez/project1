@@ -1,6 +1,12 @@
 # project1
 Tests and functions for Minimum and Maximum of an Array, Arithemetic and Geometric Progression, FizzBuzz 
 
+How to run the Program
+To run the test first  run the command npm install  in the Node.js command prompt  to have the dependencies installed in your computer
+Then run the command npm test
+
+
+CODINNG QUESTIONS ON DAY 0
 Write a function called *findMinMax* to find the maximum and minimum elements of an array. Your answer should be returned in an array containing the min and max number, respectively.
 
 Create a function called *fizzBuzz* to return 'Fizz', 'Buzz', 'FizzBuzz', or the argument it receives, all depending on the argument of the function, a number that is divisible by, 3, 5, or both 3 and 5, respectively.
