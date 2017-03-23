@@ -1,7 +1,7 @@
 # project1
 Tests and functions for Minimum and Maximum of an Array, Arithemetic and Geometric Progression, FizzBuzz 
 
-How to run the Program
+How to run the Program:
 To run the test first  run the command npm install  in the Node.js command prompt  to have the dependencies installed in your computer
 Then run the command npm test
 
